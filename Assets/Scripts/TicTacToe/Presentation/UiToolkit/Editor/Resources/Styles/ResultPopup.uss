@@ -1,0 +1,30 @@
+.result-popup {
+    width: 80%;
+    height: 40%;
+    padding: 25px;
+    background-color: var(--white);
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: var(--dark-green);
+    align-items: center;
+    justify-content: center;
+    transition: scale .2s ease-out, opacity .1s ease-out, translate .2s ease-out;
+}
+
+.result-popup-hide {
+    scale: .9;
+    opacity: 0;
+    translate: 0px 12px;
+}
+
+.result-popup-show {
+    scale: 1;
+    opacity: 1;
+}
+
+.result-label {
+    color: var(--black);
+    -unity-font-style: bold;
+    font-size: 64px;
+    -unity-text-align: middle-center;
+}

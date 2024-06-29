@@ -1,0 +1,17 @@
+{
+    "name": "com.tictactoe.presentation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1677c3c7d4f6e4f4890d3971d6f8723e",
+        "GUID:cd431b88726974a8e885375c27c65b2e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

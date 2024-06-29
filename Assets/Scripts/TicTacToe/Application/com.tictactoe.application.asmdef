@@ -1,0 +1,16 @@
+{
+    "name": "com.tictactoe.application",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1677c3c7d4f6e4f4890d3971d6f8723e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

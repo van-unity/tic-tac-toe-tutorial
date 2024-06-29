@@ -1,0 +1,22 @@
+.cell {
+    position: absolute;
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    -unity-font-style: bold;
+    transition: opacity .15s ease-in-out, scale .2s ease-out;
+}
+
+.symbol-label {
+    -unity-text-align: middle-center;
+}
+
+.cell-hidden {
+    opacity: 0;
+    scale: .9;
+}
+
+.cell-shown {
+    opacity: 1;
+    scale: 1;
+}

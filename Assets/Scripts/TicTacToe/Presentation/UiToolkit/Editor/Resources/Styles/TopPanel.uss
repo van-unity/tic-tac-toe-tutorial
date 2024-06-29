@@ -1,0 +1,24 @@
+.top-panel {
+    flex: .2;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mode-panel {
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    flex: .65;
+}
+
+.turn-label {
+    position: relative;
+    -unity-font-style: bold;
+    font-size: 32px;
+    color: var(--dark-green);
+    flex: .35;
+}

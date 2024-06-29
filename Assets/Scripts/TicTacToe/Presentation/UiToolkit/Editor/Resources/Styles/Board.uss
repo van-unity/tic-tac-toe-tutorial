@@ -1,0 +1,54 @@
+.board {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+    padding: 0;
+    --grid-line-duration: .5s;
+}
+
+.grid-lines-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cells-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.winning-lines-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-line {
+    position: absolute;
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--dark-green);
+    transition: width var(--grid-line-duration) ease-in-out;
+}
+
+.winning-line {
+    position: absolute;
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--winning-line-color);
+    transition: width .5s ease-in-out;
+}
+
+.player-symbol {
+    position: absolute;
+    color: var(--white);
+    -unity-text-align: middle-center;
+}
